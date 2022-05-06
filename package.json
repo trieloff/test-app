@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trieloff/test-app"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
-    "semantic-release": "^19.0.2"
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.2",
+    "@adobe/semantic-release-coralogix": "^1.0.0"
   }
 }
